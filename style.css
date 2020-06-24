@@ -1,0 +1,22 @@
+.bg-pink{
+  background-color: rgb(238, 139, 139);
+}
+
+.bg-btn-black{
+  background-color: rgb(76, 82, 92)!important
+  ;
+}
+
+.full-height {
+  min-height: 100vh;
+}
+
+.text-shadow-player {
+  color:  rgb(0, 204, 255)!important;
+  /* text-shadow: rgb(66, 66, 66) 1px 0 10px; */
+}
+
+.text-shadow-computer {
+  color: rgb(255, 86, 64)!important;
+  /* text-shadow: rgb(66, 66, 66) 1px 0 10px; */
+}
