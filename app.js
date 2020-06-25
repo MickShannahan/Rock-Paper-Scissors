@@ -123,9 +123,9 @@ function resolveWinner(x, y) {
   let winner = 0;
   if (playerInput == computerInput) {
     winner = "No One"
-  } else if ((playerInput == 1 && computerInput == 2) || (playerInput == 2 && computerInput == 3) || (playerInput == 3 && computerInput == 1)) {
+  } else if ((playerInput == rockValue && computerInput == paperValue) || (playerInput == paperValue && computerInput == scissorValue) || (playerInput == scissorValue && computerInput == rockValue)) {
     winner = "Computer"
-  } else if ((playerInput == 2 && computerInput == 1) || (playerInput == 3 && computerInput == 2) || (playerInput == 1 && computerInput == 3)) {
+  } else if ((playerInput == paperValue && computerInput == rockValue) || (playerInput == scissorValue && computerInput == paperValue) || (playerInput == rockValue && computerInput == scissorValue)) {
     winner = "Player"
   }
   drawWinner(`${winner} Wins!`)
